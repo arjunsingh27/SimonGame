@@ -1,4 +1,5 @@
 <h1>Simon Game</h1>
+<img src="https://github.com/arjunsingh27/AnalogClock/blob/main/%20clock.png" alt="Analog Clock" width="800px" height="400px">
 <h2>Description</h2>
 
 Simon Game is a classic memory game implemented using HTML, CSS, and JavaScript. The game tests your memory and pattern recognition skills as you follow and repeat a sequence of colors and sounds.
