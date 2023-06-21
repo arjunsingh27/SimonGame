@@ -1,4 +1,5 @@
 // Selecting Random Box
+$("#refresh").hide();
 var i=1;
 randomSel();
 function randomSel(){
@@ -19,12 +20,19 @@ $("button").click(function() {
     i++;
     setTimeout(randomSel, 1000);
   } else {
-     var audio = new Audio("./error.wav");
-     audio.play();
+    var audio = new Audio("./error.wav");
+    audio.play();
     i=0;
     $("body").addClass("end");
     $("h1").text("Game Over");
-    $(this).removeClass("btn")
+    $(this).removeClass("btn");
+    $("button").hide();
+    $("#refresh").hide().delay(1000).fadeIn();
+
+    $("#refresh").click(function() {
+      location.reload();
+    });
+    
   }
  
 })
