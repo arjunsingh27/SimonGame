@@ -1,0 +1,136 @@
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+}
+.container{
+    /* background-color: aqua; */
+    width: 30vw;
+    height: 30vw;
+    margin: auto;
+}
+button{
+    width: 10vw;
+    height: 10vw;
+    margin-left: 3.4vw;
+    margin-top: 3.5vw;
+}
+/* button {
+    width: 10vw;
+    height: 10vw;
+    position: relative;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    overflow: hidden;
+    z-index: 1;
+} */
+.btnOne{ 
+  background: #EC0F0F;
+  mix-blend-mode: normal;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.42), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 473;
+font-size: 1.5rem;
+line-height: 44px;
+
+color: #000000;
+font-variation-settings: 'slnt' 0;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btnTwo{
+background: #0F4EF1;
+box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.42), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 473;
+font-size: 1.5rem;
+line-height: 44px;
+
+color: #000000;
+font-variation-settings: 'slnt' 0;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btnThree{
+ 
+
+  background: #fef502;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.42), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 473;
+  font-size: 1.5rem;
+  line-height: 44px;
+  
+  color: #000000;
+  font-variation-settings: 'slnt' 0;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btnFour{
+ 
+
+background: #07F149;
+box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.42), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 473;
+font-size: 1.5rem;
+line-height: 44px;
+
+color: #000000;
+font-variation-settings: 'slnt' 0;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+  animation-name: cmc;
+  animation-duration: 0.5s;
+}
+
+@keyframes cmc {
+  0% {
+    background-color: rgba(191, 92, 92, 1);
+  }
+
+  50% {
+    background-color: rgba(164, 161, 158, 0.5);
+  }
+
+  to {
+    background-color: rgba(222, 92, 82, 1);
+  }
+}
+
+.end{
+  animation-name: cmc;
+  animation-duration: 0.5s;
+}
+
+@keyframes cmc {
+  0% {
+    background-color: rgba(191, 92, 92, 1);
+  }
+
+  50% {
+    background-color: rgba(164, 161, 158, 0.5);
+  }
+
+  to {
+    background-color: rgba(222, 92, 82, 1);
+  }
+}
