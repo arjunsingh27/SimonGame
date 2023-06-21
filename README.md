@@ -1,10 +1,9 @@
 <h1>Simon Game</h1>
-
-##Description
+<h2>Description</h2>
 
 Simon Game is a classic memory game implemented using HTML, CSS, and JavaScript. The game tests your memory and pattern recognition skills as you follow and repeat a sequence of colors and sounds.
 
-##How to Play
+<h2>How to Play</h2>
 
 Launch the Simon Game by opening the index.html file in a web browser.
 The game consists of four colored buttons: red, blue, green, and yellow.
@@ -17,12 +16,12 @@ The game keeps track of your current score, which corresponds to the number of r
 The "Reset" button can be used to restart the game at any time.
 Technologies Used
 
-##HTML
-##CSS
-##JavaScript
-##File Structure
+<h2>HTML</h2>
+<h2>CSS</h2>
+<h2>JavaScript</h2>
+<h2>File Structure</h2>
 
-##The project consists of the following files and directories:
+<h2>The project consists of the following files and directories:</h2>
 
 index.html: The main HTML file that renders the game interface.
 styles.css: The CSS file that defines the styles for the game elements.
@@ -31,7 +30,7 @@ sounds directory: Contains audio files used for button sounds.
 images directory: Contains any additional images or assets used in the game.
 Development
 
-##To further develop or modify the Simon Game, you can follow these steps:
+<h2>To further develop or modify the Simon Game, you can follow these steps:</h2>
 
 Clone the repository or download the source code.
 Open the project folder in a code editor of your choice.
@@ -48,6 +47,6 @@ License
 
 The Simon Game is released under the MIT License. Feel free to modify and distribute the game as per the terms of the license.
 
-##Credits
+<h2>Credits</h2>
 
-The Simon Game was created by [Arjun Singh].
+<h3>The Simon Game was created by [Arjun Singh].</h3>
